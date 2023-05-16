@@ -94,7 +94,7 @@ void bfs(int v)
 
 int main()
 {
-    printf("ÇĞºÎ: ÄÄÇ»ÅÍÇĞºÎ ÇĞ¹ø: 2022117119 ÀÌ¸§: ¹Ú¹ÎÁø\n");
+    printf("í•™ë¶€: ì»´í“¨í„°í•™ë¶€ í•™ë²ˆ: 2022117119 ì´ë¦„: ë°•ë¯¼ì§„\n");
     int n, i, j, input;
     FILE* file = fopen("in2.txt", "r");
     fscanf(file, "%d", &n);
@@ -117,7 +117,7 @@ int main()
 
     while (1)
     {
-        printf("scanf ÀÔ·Â: ");
+        printf("scanf ì…ë ¥: ");
         scanf("%d", &input);
         if (input == -1)
             break;
