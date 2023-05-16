@@ -111,7 +111,7 @@ int isNodeExist(Node* root, int data) {
 }
 
 int main() {
-    printf("ฤฤวปลอวะบฮ 2022117119 นฺนฮม๘\n\n");
+    printf("รรรยปร…รรรยบร 2022117119 ยนรยนรรรธ\n\n");
     FILE* in = fopen("014_in2.txt", "r");
     if (in == NULL) {
         printf("Error opening file\n");
