@@ -67,7 +67,7 @@ int main() {
     }
     fclose(inFile);
 
-    printf("ÇĞºÎ: ÄÄÇ»ÅÍÇĞºÎ ÇĞ¹ø:2022117119 ÀÌ¸§: ¹Ú¹ÎÁø\n");
+    printf("í•™ë¶€: ì»´í“¨í„°í•™ë¶€ í•™ë²ˆ:2022117119 ì´ë¦„: ë°•ë¯¼ì§„\n");
 
     FILE* searchFile = fopen("search2.txt", "r");
     if (searchFile == NULL) {
