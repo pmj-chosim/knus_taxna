@@ -49,7 +49,7 @@ void addEdge(int u, int v)
 
 int main()
 {
-    printf("��ǻ���к� �ڹ��� 2022117119\n");
+    printf("ÄÄÇ»ÅÍÇÐºÎ ¹Ú¹ÎÁø 2022117119\n");
     int n, i, j, input;
     FILE* file = fopen("in2-3.txt", "r"); //in2-3.txt
     fscanf(file, "%d", &n);
@@ -75,7 +75,7 @@ int main()
 
     while (1)
     {
-        printf("scanf �Է�: ");
+        printf("scanf ÀÔ·Â: ");
         scanf("%d", &input);
         if (input == -1)
             break;
