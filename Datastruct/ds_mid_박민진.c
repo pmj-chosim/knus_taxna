@@ -21,7 +21,7 @@ void P1() {
 	fscanf_s(fp, "%d", &n);
 	fclose(fp);
 	int c = 0;
-	printf("¹®Á¦ 1: %d\n",binpres(n, c));
+	printf("ë¬¸ì œ 1: %d\n",binpres(n, c));
 	
 }
 
@@ -53,7 +53,7 @@ void P2() {
 		fscanf_s(fp, "%d", &arr[i]);
 	}
 
-	printf("¹®Á¦ 2: %d\n",binsearch(arr, key, 0, c-1));
+	printf("ë¬¸ì œ 2: %d\n",binsearch(arr, key, 0, c-1));
 	fclose(fp);
 
 }
@@ -146,7 +146,7 @@ void P3() {
 	FILE* fp;
 	fopen_s(&fp, "in3.txt", "r");
 	fscanf_s(fp, "%s", L,100);
-	printf("¹®Á¦ 3: ");
+	printf("ë¬¸ì œ 3: ");
 	postfix();
 }
 
@@ -159,16 +159,16 @@ void makenode(node** head, node** rear, int d) {
 	node* new = (node*)malloc(sizeof(node));
 	new->data = d; new->next = NULL;
 	if (!(*head)) {
-		//head°¡ ¾øÀ»¶§
+		//headê°€ ì—†ì„ë•Œ
 		*head = new;*rear = new;
 	}
 	else {
-		if (d % 2) { //È¦¼ö ´Ï±î µÚ¿¡ Ãß°¡
+		if (d % 2) { //í™€ìˆ˜ ë‹ˆê¹Œ ë’¤ì— ì¶”ê°€
 			(*rear)->next = new;
 			*rear = new;
 		}
 		else {
-			//Â¦¼ö
+			//ì§ìˆ˜
 			new->next = *head;
 			*head = new;
 		}
@@ -184,7 +184,7 @@ void print(node** head) {
 }
 
 void P4() {
-	printf("¹®Á¦ 4: ");
+	printf("ë¬¸ì œ 4: ");
 	FILE* fp;
 	fopen_s(&fp, "in4.txt", "r");
 	if (fp == 0) {
@@ -205,11 +205,11 @@ void P4() {
 
 int main(void) {
 
-	printf("ÇÐ°ú : ÄÄÇ»ÅÍÇÐºÎ ÇÐ¹ø : 2022117119 ÀÌ¸§:  ¹Ú¹ÎÁø \n");
-	P1();	//¹®Á¦ 1¿¡ ´ëÇÑ ÄÚµå°¡ ¼öÇàµÇ´Â function
-	P2();	//¹®Á¦ 2¿¡ ´ëÇÑ ÄÚµå°¡ ¼öÇàµÇ´Â function
-	P3();	//¹®Á¦ 3¿¡ ´ëÇÑ ÄÚµå°¡ ¼öÇàµÇ´Â function
-	P4();	//¹®Á¦ 4¿¡ ´ëÇÑ ÄÚµå°¡ ¼öÇàµÇ´Â function
+	printf("í•™ê³¼ : ì»´í“¨í„°í•™ë¶€ í•™ë²ˆ : 2022117119 ì´ë¦„:  ë°•ë¯¼ì§„ \n");
+	P1();	//ë¬¸ì œ 1ì— ëŒ€í•œ ì½”ë“œê°€ ìˆ˜í–‰ë˜ëŠ” function
+	P2();	//ë¬¸ì œ 2ì— ëŒ€í•œ ì½”ë“œê°€ ìˆ˜í–‰ë˜ëŠ” function
+	P3();	//ë¬¸ì œ 3ì— ëŒ€í•œ ì½”ë“œê°€ ìˆ˜í–‰ë˜ëŠ” function
+	P4();	//ë¬¸ì œ 4ì— ëŒ€í•œ ì½”ë“œê°€ ìˆ˜í–‰ë˜ëŠ” function
 
 
 	return 0;
