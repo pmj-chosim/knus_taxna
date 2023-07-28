@@ -1,2 +1,0 @@
-# Taxna
-KNUS의 Taxna website
