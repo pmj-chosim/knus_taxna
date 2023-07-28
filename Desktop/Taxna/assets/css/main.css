@@ -3022,7 +3022,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(188, 120, 23, 0.627);
+				background:rgba(189, 126, 45, 0.627);
 				content: '';
 				display: block;
 				height: 100%;
