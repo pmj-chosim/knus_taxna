@@ -116,3 +116,54 @@
         ../../py/
         ../../trail/
         ../../trailstdio/
+        # macOS
+
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/Editor specific
+.idea/
+.vscode/
+
+# Compiled files
+*.class
+*.o
+*.pyc
+*.pyo
+*.dll
+*.so
+*.dylib
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.hdb
+*.pdb
+
+# Temporary files
+*~
+*.swp
+*.tmp
+
+# OS generated files
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# .gitignore itself
+.gitignore
+
+
+
+
+
